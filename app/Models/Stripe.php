@@ -8,14 +8,14 @@
 
 namespace App\Models;
 
-use App\Models\Collections\Cards;
-use App\Models\Collections\RowFillPatterns;
-use App\Models\Collections\ValuePool;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use App\Models\Collections\RowFillPatterns;
+use Illuminate\Database\Eloquent\Model;
+use App\Models\Collections\ValuePool;
 use Illuminate\Support\Facades\Cache;
-use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
+use App\Models\Collections\Cards;
+use Carbon\Carbon;
 
 /**
  * I want this to be an atomic operation.
@@ -27,7 +27,7 @@ use Illuminate\Support\Facades\DB;
 class Stripe extends Model
 {
     /**
-     * the limit is 4, in order to make 6 tickets per stripe
+     * the length is 4, in order to make 6 tickets per stripe
      * i need to improve the row pattern picking algorithm not just relying on random
      * basically i will need to pick patterns that can balance the valuePool.
      * with a limit of 5 as it is right now in 90% of cases it will generate a stripe
