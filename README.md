@@ -10,11 +10,10 @@ Please keep in mind everything is basic and no where close to a real world appli
 to provide the functionality that was required and the extra functionality i decided to add.
 
 I am aiming for code readability , simplicity and some performance also.
-There is more things i could have done , or things i could have done or could have done better but
-on the other hand im also trying to not invest an insane amount of hrs on it. I am a big fan of rich models and i am totally against
+There is more things i could have done , or things i could have done better but
+on the other hand im also trying to not invest an insane amount of hrs on it. So things like casting classes , DTOs/resource classes are missing.
+I am a big fan of rich models and i am totally against
 the idea of having rich service classes and anemic models/entites which u find plenty today that have only getters and setters. Services in my code are only a medium between application and domain model. Holding very little logic.
-
-So things like casting classes , DTOs/resource classes are missing.
 
 U will noticed that php doc comments are not in all methods. this is on purpose, i see them as polluting the code and they are not always neccessary. I think with php 7.4 and above there is not need for them.
 I use type hinting and return type + i try to make the method name as explicit and descriptive as possible. 
