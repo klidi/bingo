@@ -45,7 +45,6 @@ class BingoService implements BingoServiceInterface
         $filledLines = Cell::filledLines($game->id);
 
         if ($filledLines->count() > 0) {
-            print_r($filledLines->toArray());
             $game->bingo();
         }
     }
