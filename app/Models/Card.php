@@ -26,7 +26,6 @@ class Card extends Model
     const COLS = 9;
     const CELLS = 27;
 
-    // this is public cuz its Laravel/Lumen , in other situations this would be private/protected
     private Cells $cells;
     private RowFillPatterns $patterns;
     private ValuePool $valuePool;
