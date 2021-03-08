@@ -53,7 +53,7 @@ The database is build around the above domain models
 I have provided migration files and seeding data.
 
 Indexing is pretty basic. I usually tend to not rush into indexing without having dome some heavy testing. Its hard to guess right the indexing
-just based on cardinality. Its more like a case by case things depending on queries etc.
+just based on cardinality. Its more like a case by case thing depending on queries etc.
 
 ## Project Structure
 
