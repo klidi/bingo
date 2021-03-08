@@ -16,7 +16,7 @@ the idea of having rich service classes and anemic models/entites which u find p
 
 So things like casting classes , DTOs/resource classes are missing.
 
-U will noticed that php doc comments are not in all methods. this is on purpose. I think with php 7.4 and above there is not need for them.
+U will noticed that php doc comments are not in all methods. this is on purpose, i see them as polluting the code and they are not always neccessary. I think with php 7.4 and above there is not need for them.
 I use type hinting and return type + i try to make the method name as explicit and descriptive as possible. 
 
 
